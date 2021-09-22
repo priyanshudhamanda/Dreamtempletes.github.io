@@ -38,8 +38,9 @@
         width: 300px;
     }
     #logo{
-        width:85px;
+        width:95px;
          height:80px;
+         padding-left: 10px;
     }
    
 }
@@ -74,6 +75,7 @@
         width: auto;
         height: fit-content;
         padding: 0px;
+       
       }
       #name{
         position: fixed;
@@ -81,7 +83,8 @@
         width: 300px;
     }
     #logo{
-        width:85px;
+        padding-left: 10px;
+        width:90px;
          height:80px;
     }
    
@@ -89,7 +92,7 @@
 @media screen and (max-width: 500px) {
   
    body{
-    background-color:cornflowerblue;
+    background-color:#E8A273;
     padding: 1px;
    }
    #logo{
@@ -102,18 +105,19 @@
        position: absolute;
        left: 85px;
        top: 10px;
-       width: 230px;
+       width: 232px;
        height: 70px;
-   
 }
 .navbar {
     background-color: #FFE1C2;
     width: auto;
     height: 90px;
     padding: 10px;
+    border-radius: 20px;
   }
   .nav{
   position: fixed;
-  top:150px;
+  top:100px;
+  left: 45px;
     }
 }

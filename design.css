@@ -1,0 +1,96 @@
+body{
+    background-color: #E8A273;
+    padding: 4px;
+}
+.container{
+    padding: 1px;
+}
+.navbar{
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 2561px) and (min-width: 768px) {
+
+   
+.nav{
+    position: absolute;
+    right: 20px;    
+    }
+    .nav-link{
+    color: #98473E;
+    }
+    .nav-link:hover{
+    text-shadow: #B85B51 1px 1px 1px;
+    color: #CA847D;
+    }
+    .navbar {
+        background-color: #FFE1C2;
+        width: auto;
+        height: fit-content;
+        padding: 0px;
+      }
+      #name{
+        position: fixed;
+        left: 100px;
+        width: 300px;
+    }
+    #logo{
+        width:85px;
+         height:80px;
+    }
+}
+@media screen and (max-width: 769px) and (min-width: 425px) {
+
+.nav{
+    position: absolute;
+    right: 20px;    
+    }
+    .nav-link{
+    color: #98473E;
+    }
+    .nav-link:hover{
+    text-shadow: #B85B51 1px 1px 1px;
+    color: #CA847D;
+    }
+    .navbar {
+        background-color: #FFE1C2;
+        width: auto;
+        height: fit-content;
+        padding: 0px;
+      }
+      #name{
+        position: fixed;
+        left: 100px;
+        width: 300px;
+    }
+    #logo{
+        width:85px;
+         height:80px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .nav{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+width: fit-content;
+    }
+
+    #logo{
+        position: absolute;
+        width:65px;
+         height:60px;
+    }
+    #name{
+        height: 60px;
+    }
+    .navbar {
+        
+         height: 100px;
+      }
+    
+}

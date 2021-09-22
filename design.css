@@ -96,12 +96,12 @@
        position: absolute;
        top: 1px;
        height: 80px;
-       width: 70px;
+       width: 80px;
    }
    #name{
        position: absolute;
-       left: 80px;
-       top: 1px;
+       left: 85px;
+       top: 10px;
        width: 230px;
        height: 70px;
    

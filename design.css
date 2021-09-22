@@ -1,20 +1,20 @@
-body{
-    background-color: #E8A273;
-    padding: 4px;
-}
-.container{
-    padding: 1px;
-}
-.navbar{
-    border-radius: 10px;
-    position: sticky;
-    top: 0px;
-    border-radius: 10px;
-}
+
 
 @media screen and (max-width: 2561px) and (min-width: 768px) {
 
-   
+    body{
+        background-color: #E8A273;
+        padding: 4px;
+    }
+    .container{
+        padding: 1px;
+    }
+    .navbar{
+        border-radius: 10px;
+        position: sticky;
+        top: 0px;
+        border-radius: 10px;
+    }
 .nav{
     position: absolute;
     right: 20px;    
@@ -41,9 +41,23 @@ body{
         width:85px;
          height:80px;
     }
+   
 }
 @media screen and (max-width: 769px) and (min-width: 425px) {
 
+    body{
+        background-color: #E8A273;
+        padding: 4px;
+    }
+    .container{
+        padding: 1px;
+    }
+    .navbar{
+        border-radius: 10px;
+        position: sticky;
+        top: 0px;
+        border-radius: 10px;
+    }
 .nav{
     position: absolute;
     right: 20px;    
@@ -70,27 +84,36 @@ body{
         width:85px;
          height:80px;
     }
+   
 }
-@media screen and (max-width: 500px) {
-
-    .nav{
-    position: absolute;
-    top: 80px;
-    left: 50px;
-width: fit-content;
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  
+   body{
+    background-color: #E8A273;
+    padding: 1px;
+   }
+   #logo{
+       position: absolute;
+       top: 1px;
+       height: 80px;
+       width: 70px;
+   }
+   #name{
+       position: absolute;
+       left: 80px;
+       top: 1px;
+       width: 230px;
+       height: 70px;
+   
+}
+.navbar {
+    background-color: #FFE1C2;
+    width: auto;
+    height: 90px;
+    padding: 10px;
+  }
+  .nav{
+  position: fixed;
+  top:150px;
     }
-
-    #logo{
-        position: absolute;
-        width:65px;
-         height:60px;
-    }
-    #name{
-        height: 60px;
-    }
-    .navbar {
-        
-         height: 100px;
-      }
-    
 }

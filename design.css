@@ -104,6 +104,13 @@ footer{
          height:80px;
          padding-left: 10px;
     }
+    #logo2
+    {
+        width: 400px;
+    }
+    .box{
+    margin: 60px;
+    }
 }
 @media screen and (max-width: 769px) and (min-width: 425px) {
 
@@ -147,6 +154,13 @@ footer{
         padding-left: 10px;
         width:90px;
          height:80px;
+    }
+    #logo2
+    {
+        width: 350px;
+    }
+    .box{
+    margin: 60px;
     }
     
 }
@@ -224,5 +238,12 @@ footer{
             margin-top: 10px;
             background-color: #F5C396;
             height: 250px;
+        }
+        #logo2
+        {
+            width: 200px;
+        }
+        .box{
+        margin: 20px;
         }
 }
